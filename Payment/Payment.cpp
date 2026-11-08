@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <Windows.h>
 #include "Payment.h"
 
@@ -15,7 +15,7 @@ int main()
 	b.Display();
 
 	Payment c = b;
-	std::cout << "Âèâåäåííÿ ñêîï³éîâàíîãî îá'ºêòà c\n";
+	std::cout << "Ð’Ð¸Ð²ÐµÐ´ÐµÐ½Ð½Ñ ÑÐºÐ¾Ð¿Ñ–Ð¹Ð¾Ð²Ð°Ð½Ð¾Ð³Ð¾ Ð¾Ð±'Ñ”ÐºÑ‚Ð° c\n";
 	c.Display();
 
 	std::string resultText = b.toString();
